@@ -62,7 +62,7 @@ module.exports = {
             test: /\.tsx?$/,
             use: [
               {
-                loader: 'replace-attribute',
+                loader: 'replace-attribute-loader',
                 options: {
                   attribute: 'data-test-hook',
                 },
@@ -89,7 +89,7 @@ module.exports = {
             test: /\.tsx?$/,
             use: [
               {
-                loader: 'replace-attribute',
+                loader: 'replace-attribute-loader',
                 options: {
                   attribute: 'data-test-hook',
                 },
@@ -113,7 +113,7 @@ module.exports = {
             test: /\.tsx?$/,
             use: [
               {
-                loader: 'replace-attribute',
+                loader: 'replace-attribute-loader',
                 options: {
                   attribute: ['data-test-hook', 'data-test'],
                 },
@@ -137,7 +137,7 @@ module.exports = {
             test: /\.tsx?$/,
             use: [
               {
-                loader: 'replace-attribute',
+                loader: 'replace-attribute-loader',
                 options: {
                   attribute: {
                     'data-test-hook': 'data-foo="bar"',
