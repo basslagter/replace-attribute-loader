@@ -1,6 +1,6 @@
 {
   "name": "replace-attribute-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replaces the specified attributes with an optional value",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
