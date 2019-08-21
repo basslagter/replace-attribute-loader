@@ -30,11 +30,11 @@
   "homepage": "https://github.com/basslagter/replace-attribute-loader#readme",
   "devDependencies": {
     "@types/loader-utils": "^1.1.3",
-    "standard-version": "^6.0.1",
+    "standard-version": "^7.0.0",
     "typescript": "^3.5.3"
   },
   "dependencies": {
     "loader-utils": "^1.2.3",
-    "lodash": "^4.17.14"
+    "lodash": "^4.17.15"
   }
 }
